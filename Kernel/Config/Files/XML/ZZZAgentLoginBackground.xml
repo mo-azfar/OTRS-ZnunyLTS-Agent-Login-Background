@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="2.0" init="Config">
+    <Setting Name="AgentLoginBackground" Required="0" Valid="1">
+        <Description Translatable="1">The background of the agent login page. The URL to the image can be a relative URL to the skin image directory, or a full URL to a remote web server.</Description>
+        <Navigation>Frontend::Agent</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="URL">skins/Agent/default/img/mac2.png</Item>
+                <Item Key="StyleTop">0</Item>
+                <Item Key="StyleBottom">0</Item>
+                <Item Key="StyleLeft">0</Item>
+                <Item Key="StyleRight">0</Item>
+                <Item Key="StyleWidth">100%</Item>
+                <Item Key="StyleHeight">100%</Item>
+                <Item Key="StylePosition">fixed</Item>
+                <Item Key="StyleBackgroundAttachment">fixed</Item>
+                <Item Key="StyleZIndex">-1</Item>
+            </Hash>
+        </Value>
+    </Setting>
+</otrs_config>
